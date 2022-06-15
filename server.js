@@ -6,6 +6,13 @@ const cors = require('cors')
 
 // so the app can use cors
 app.use(cors())
+
+// so client side js can work
+app.use(express.urlencoded({
+    extended: true
+}))
+app.use(express.json())
+app.use(express.static('public'))
 // creation of an object to be used to respond
 const sneakers = {
     'Jordan': {
