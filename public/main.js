@@ -1,7 +1,6 @@
 // client side js
 
-alert('its working')
-
+console.log('can this work please')
 
 // console.log('hi')
 
