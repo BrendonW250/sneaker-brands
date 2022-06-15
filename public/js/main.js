@@ -18,9 +18,11 @@ function getFetch(){
         .then(res => res.json())
         .then(data => {
             console.log(data)
+
+            document.querySelector('h2').innerHTML = 'Brand: ' + userBrand
         })
 
-        document.querySelector('h2').innerHTML = 'Brand: ' + userBrand
+        
 
         .catch(err => {
             console.log(`error ${err}`)
