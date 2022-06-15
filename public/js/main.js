@@ -4,10 +4,10 @@ document.querySelector('button').addEventListener('click', getFetch)
 
 // console.log('hi')
 
-
+// JSON.stringify(url)
 
 function getFetch(){
-    const url = 'https://sneaker-brands-api-try.herokuapp.com/'
+    const url = 'https://sneaker-brands-api-try.herokuapp.com/api/:sneakerBrand'
 
     fetch(url)
         .then(res => res.json())
