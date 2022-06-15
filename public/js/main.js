@@ -7,7 +7,10 @@ document.querySelector('button').addEventListener('click', getFetch)
 // JSON.stringify(url)
 
 function getFetch(){
-    const url = 'https://sneaker-brands-api-try.herokuapp.com/api/:sneakerBrand'
+    const userBrand = document.querySelector('#brands').value
+
+
+    const url = 'https://sneaker-brands-api-try.herokuapp.com/api/:sneakerBrand'+userBrand
 
     fetch(url)
         .then(res => res.json())

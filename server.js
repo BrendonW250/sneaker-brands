@@ -21,6 +21,12 @@ const sneakers = {
         'price': '$350'
     },
 
+    'Jordan': {
+        'brand': 'Jordan',
+        'nameOfShoe': `Infrared 6's`,
+        'price': '$300'
+    },
+
     'Nike': {
         'brand': 'Nike',
         'nameOfShoe': 'Kyrie 2',
