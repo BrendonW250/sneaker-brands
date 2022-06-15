@@ -12,11 +12,15 @@ function getFetch(){
 
     const url = 'https://sneaker-brands-api-try.herokuapp.com/api/:sneakerBrand'+userBrand
 
+
+
     fetch(url)
         .then(res => res.json())
         .then(data => {
             console.log(data)
         })
+
+        document.querySelector('h2').innerHTML = 'Brand: ' + userBrand
 
         .catch(err => {
             console.log(`error ${err}`)
