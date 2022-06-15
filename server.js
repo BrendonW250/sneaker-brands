@@ -1,7 +1,11 @@
 const express = require('express')
 const app = express()
 const PORT = 8000
+const cors = require('cors')
 
+
+// so the app can use cors
+app.use(cors())
 // creation of an object to be used to respond
 const sneakers = {
     'Jordan': {
