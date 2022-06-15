@@ -1,21 +1,21 @@
 // client side js
-
-console.log('can this work please')
+// document.querySelector('')
+// console.log('can this work please')
 
 // console.log('hi')
 
 
 
-// function getFetch(){
-//     const url = 'https://thecocktaildb.com/api/json/v1/1/random.php'
+function getFetch(){
+    const url = 'https://sneaker-brands-api-try.herokuapp.com/'
 
-//     fetch(url)
-//         .then(res => res.json())
-//         .then(data => {
-//             console.log(data)
-//         })
+    fetch(url)
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+        })
 
-//         .catch(err => {
-//             console.log(`error ${err}`)
-//         })
-// }
+        .catch(err => {
+            console.log(`error ${err}`)
+        })
+}
