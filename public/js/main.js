@@ -19,7 +19,9 @@ function getFetch(){
         .then(data => {
             console.log(data)
 
-            document.querySelector('h2').innerHTML = 'Brand: ' + userBrand
+            document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            document.querySelector('.name').innerHTML = 'Name: ' + data.nameOfShoe
+            document.querySelector('.retail-price').innerHTML = 'Price: ' + data.price
         })
 
         
