@@ -14,17 +14,22 @@ app.use(express.urlencoded({
 app.use(express.json())
 app.use(express.static('public'))
 // creation of an object to be used to respond
+
+// testing if I declare another variable within this sneakers object
+
 const sneakers = {
     'Jordan': {
         'brand': 'Jordan',
-        'nameOfShoe': 'Bred 11',
-        'price': '$350'
-    },
-
-    'Jordan': {
-        'brand': 'Jordan',
-        'nameOfShoe': `Infrared 6's`,
-        'price': '$300'
+        'nameOfShoes': {
+            'shoe1': `Infrared 6's`,
+            'shoe2': `Concord 11's`,
+            'shoe3': `Shadow 10's`
+        },
+        'price': {
+            'shoe1': '$319',
+            'shoe2': '$220',
+            'shoe3': '$220'
+        }
     },
 
     'Nike': {
