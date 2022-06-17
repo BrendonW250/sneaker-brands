@@ -24,33 +24,43 @@ const sneakers = {
             'shoe1': `Infrared 6's`,
             'shoe2': `Concord 11's`,
             'shoe3': `Shadow 10's`
-        },
-        'price': {
-            'shoe1': '$319',
-            'shoe2': '$220',
-            'shoe3': '$220'
         }
     },
 
     'Nike': {
         'brand': 'Nike',
         'nameOfShoes': {
-            'shoe1': `Kyrie 2's`,
-            
-        },
-        'price': '$220'
+            'shoe1': `Kyrie Flytrap`,
+            'shoe2': `Huarache's`
+        }
+        // 'price': '$220'
     },
 
     'Adidas': {
         'brand': 'Adidas',
-        'nameOfShoe': 'T-Mac',
-        'price': '$200'
+        'nameOfShoe': {
+            'shoe1': 'Yeezy 350 Boost - Static Black',
+            'shoe2': 'Yeezy Slides - Pure'
+        }
+    },
+
+    'Puma': {
+        'brand': 'Puma',
+        'nameOfShoes': {
+            'shoe1': `Ignite Limitless`,
+            'shoe2': `Ignite Limitess Sr Evoknit`,
+        }
+    },
+
+    'Vans': {
+        'brand': 'Vans',
+        'nameOfShoe': 'Canvas SK8-HI' 
     },
 
     'Unknown': {
         'brand': 'unknown',
-        'nameOfShoe': 'unknown',
-        'price': 'unknown'
+        'nameOfShoe': 'unknown'
+        // 'price': 'unknown'
     }
 }
 
