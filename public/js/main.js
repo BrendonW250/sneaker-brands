@@ -17,11 +17,11 @@ function getFetch(){
     fetch(url)
         .then(res => res.json())
         .then(data => {
-            console.log(data.sneakers)
+            console.log(data)
 
             // for jordans
             document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            document.querySelector('.name1').innerHTML = 'Name: ' + data.sneakers.nameOfShoes.shoe1
+            document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
             // document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
             // document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
             
