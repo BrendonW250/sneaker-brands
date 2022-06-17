@@ -21,13 +21,9 @@ function getFetch(){
 
             // for jordans
             document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            document.getElementsByClassName('name1').innerHTML = 'Name: ' + data.nameOfShoes[0]
-            document.getElementsByClassName('name2').innerHTML = 'Name: ' + data.nameOfShoes[1]
-            document.getElementsByClassName('name3').innerHTML = 'Name: ' + data.nameOfShoes[2]
-
-            // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            // document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-            // document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
+            document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+            document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
             
             
             // document.querySelector('.name').innerHTML = 'Name: ' + data.nameOfShoes.shoe1 + ' ' + data.nameOfShoes.shoe2 + ' ' + data.nameOfShoes.shoe3
