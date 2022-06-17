@@ -19,9 +19,11 @@ function getFetch(){
         .then(data => {
             console.log(data)
 
-            document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            document.querySelector('.name').innerHTML = 'Name: ' + data.nameOfShoes.shoe1 + ' ' + data.nameOfShoes.shoe2 + ' ' + data.nameOfShoes.shoe3
-            document.querySelector('.retail-price').innerHTML = 'Price: ' + ' ' + data.price.shoe1 + ' ' + data.price.shoe2 + ' ' + data.price.shoe3
+            // for jordans
+            document.querySelector('.jordans-shoe-search' > '.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            // document.querySelector('.name').innerHTML = 'Name: ' + data.nameOfShoes.shoe1 + ' ' + data.nameOfShoes.shoe2 + ' ' + data.nameOfShoes.shoe3
+            // document.querySelector('.retail-price').innerHTML = 'Price: ' + ' ' + data.price.shoe1 + ' ' + data.price.shoe2 + ' ' + data.price.shoe3
         })
 
         
