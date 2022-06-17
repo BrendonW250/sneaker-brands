@@ -21,7 +21,7 @@ function getFetch(){
 
             // for jordans
             document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            document.querySelector('.name1').innerHTML = 'Name: ' + data.Jordan.nameOfShoes.shoe1
+            document.querySelector('.name1').innerHTML = 'Name: ' + data.shoe1
             document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
             document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
             
