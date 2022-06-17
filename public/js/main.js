@@ -20,8 +20,8 @@ function getFetch(){
             console.log(data)
 
             document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            document.querySelector('.name').innerHTML = 'Name: ' + data.nameOfShoe
-            document.querySelector('.retail-price').innerHTML = 'Price: ' + data.price
+            document.querySelector('.name').innerHTML = 'Name: ' + data.nameOfShoes
+            document.querySelector('.retail-price').innerHTML = 'Price: ' + data.price.shoe1 + data.price.shoe2 + data.price.shoe3
         })
 
         
