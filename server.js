@@ -34,7 +34,10 @@ const sneakers = {
 
     'Nike': {
         'brand': 'Nike',
-        'nameOfShoe': 'Kyrie 2',
+        'nameOfShoes': {
+            'shoe1': `Kyrie 2's`,
+            
+        },
         'price': '$220'
     },
 
