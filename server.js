@@ -38,7 +38,7 @@ const sneakers = {
 
     'Adidas': {
         'brand': 'Adidas',
-        'nameOfShoe': {
+        'nameOfShoes': {
             'shoe1': 'Yeezy 350 Boost - Static Black',
             'shoe2': 'Yeezy Slides - Pure'
         }
