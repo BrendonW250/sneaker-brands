@@ -24,7 +24,7 @@ function getFetch(){
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
                 document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
                 document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
-                break;
+                
             }else if (data.brand === 'Nike'){ //Nike brand
                 document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
