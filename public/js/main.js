@@ -40,6 +40,8 @@ function getFetch(){
             }else if (data.brand === 'Vans'){
                 document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            }else{
+                document.querySelector('.name').innerHTML = 'Name: ' 
             }
          
 
