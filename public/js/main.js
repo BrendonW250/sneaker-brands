@@ -32,6 +32,13 @@ function getFetch(){
                 document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
                 document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+            }else if (data === 'Puma'){
+                document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+                document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+            }else if (data === 'Vans'){
+                document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
             }
             // for jordans
             // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand

@@ -54,7 +54,9 @@ const sneakers = {
 
     'Vans': {
         'brand': 'Vans',
-        'nameOfShoes': 'Canvas SK8-HI' 
+        'nameOfShoes': {
+            'shoe1': 'Canvas SK8-HI'
+        }
     },
 
     'Unknown': {
