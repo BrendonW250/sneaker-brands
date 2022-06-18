@@ -39,10 +39,11 @@ function getFetch(){
             }else if (data.brand === 'Vans'){
                 document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            }else if (data.brand === 'Unknown'){
-                document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
             }
+            // }else if (data.brand === 'Unknown'){
+            //     document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            //     document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            //}
             // for jordans
             // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
             // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
