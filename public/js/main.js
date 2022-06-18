@@ -24,6 +24,7 @@ function getFetch(){
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
                 document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
                 document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
+                break;
             }else if (data.brand === 'Nike'){ //Nike brand
                 document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
@@ -40,38 +41,7 @@ function getFetch(){
                 document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
             }
-            // }else if (data.brand === 'Unknown'){
-            //     document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            //     document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            //}
-            // for jordans
-            // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            // document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-            // document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
-            
-            
-            // document.querySelector('.name').innerHTML = 'Name: ' + data.nameOfShoes.shoe1 + ' ' + data.nameOfShoes.shoe2 + ' ' + data.nameOfShoes.shoe3
-            // document.querySelector('.retail-price').innerHTML = 'Price: ' + ' ' + data.price.shoe1 + ' ' + data.price.shoe2 + ' ' + data.price.shoe3
-
-            // for nikes
-            // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            // document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-
-            // for adidas
-            // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            // document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-
-            // for puma
-            // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            // document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-            
-            // for vans
-            // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoe
+         
 
         })
 
