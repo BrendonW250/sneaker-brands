@@ -61,13 +61,13 @@ function getFetch(){
             // document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
 
             // for puma
-            document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+            // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            // document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
             
             // for vans
-            document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-            document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoe
+            // document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            // document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoe
 
         })
 
