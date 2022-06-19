@@ -43,9 +43,20 @@ function getFetch(){
             }else if (data.brand === 'Vans'){
                 document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
                 document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            }else if(data.brand === 'Unknown'){
+                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+                document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+                document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
             }
+
+
          
             // in the case for the 3 shoe displaying as something else
+            for (let i=0; i<data.nameOfShoes; i++){
+                if (data.nameOfShoes[i] !== 'shoe2' || data.nameOfShoes[i] !== 'shoe3'){
+                    console.log('There are no other shoes')
+                }
+            }
            
         })
 
