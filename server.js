@@ -62,7 +62,9 @@ const sneakers = {
     'Unknown': {
         'brand': 'unknown',
         'nameOfShoes': {
-            'shoe1': 'unknown'
+            'shoe1': 'unknown',
+            'shoe2': 'unknown',
+            'shoe3': 'unknown'
         }
         // 'price': 'unknown'
     }
