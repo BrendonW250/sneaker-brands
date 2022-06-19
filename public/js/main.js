@@ -52,11 +52,14 @@ function getFetch(){
 
          
             // in the case for the 3 shoe displaying as something else
-            for (let i=0; i<data.nameOfShoes; i++){
-                if (data.nameOfShoes[i] !== 'shoe2' || data.nameOfShoes[i] !== 'shoe3'){
-                    console.log('There are no other shoes')
-                }
-            }
+        let arr = []
+        data.sneakers.forEach(element => {
+            arr.push((element.nameOfShoes))
+
+            console.log(arr)
+        }); 
+            
+        
            
         })
 
