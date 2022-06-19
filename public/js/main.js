@@ -19,7 +19,7 @@ function getFetch(){
         .then(data => {
             console.log(data)
 
-            document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data
 
             // if (data.brand === 'Jordan'){ // Jordan brand
             //     document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
