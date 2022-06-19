@@ -46,10 +46,7 @@ function getFetch(){
             }
          
             // in the case for the 3 shoe displaying as something else
-            if (data.nameOfShoes !==  'shoe3'){
-                console.log('N/A')
-            }
-
+           
         })
 
         
