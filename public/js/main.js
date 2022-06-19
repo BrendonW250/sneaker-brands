@@ -1,5 +1,5 @@
 // client side js
-document.querySelector('.my-button').addEventListener('click', getFetch)
+document.querySelector('button').addEventListener('click', getFetch)
 // console.log('can this work please')
 
 // console.log('hi')
