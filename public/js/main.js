@@ -10,7 +10,8 @@ function getFetch(){
     const userBrand = document.querySelector('#brands').value
 
 
-    const url = 'https://sneaker-brands-api-try.herokuapp.com/api/'+userBrand
+    // const url = 'https://sneaker-brands-api-try.herokuapp.com/api/'+userBrand
+    const url = 'https://sneaker-brands-api-try.herokuapp.com/api/'
 
 
 
