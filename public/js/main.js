@@ -1,5 +1,5 @@
 // client side js
-document.querySelector('button').addEventListener('click', getFetch)
+document.querySelector('.my-button').addEventListener('click', getFetch)
 // console.log('can this work please')
 
 // console.log('hi')
@@ -19,30 +19,32 @@ function getFetch(){
         .then(data => {
             console.log(data)
 
-            if (data.brand === 'Jordan'){ // Jordan brand
-                document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-                document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-                document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
+            document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+
+            // if (data.brand === 'Jordan'){ // Jordan brand
+            //     document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            //     document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            //     document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+            //     document.querySelector('.name3').innerHTML = 'Name: ' + data.nameOfShoes.shoe3
                 
-            }else if (data.brand === 'Nike'){ //Nike brand
-                document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-                document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-            }else if (data.brand === 'Adidas'){ //Adidas brand
-                document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-                document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-            }else if (data.brand === 'Puma'){
-                document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-                document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
-            }else if (data.brand === 'Vans'){
-                document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
-                document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
-            }else{
-                document.querySelector('.name').innerHTML = 'Name: ' 
-            }
+            // }else if (data.brand === 'Nike'){ //Nike brand
+            //     document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            //     document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            //     document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+            // }else if (data.brand === 'Adidas'){ //Adidas brand
+            //     document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            //     document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            //     document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+            // }else if (data.brand === 'Puma'){
+            //     document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            //     document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            //     document.querySelector('.name2').innerHTML = 'Name: ' + data.nameOfShoes.shoe2
+            // }else if (data.brand === 'Vans'){
+            //     document.querySelector('.brand-heading').innerHTML = 'Brand: ' + data.brand
+            //     document.querySelector('.name1').innerHTML = 'Name: ' + data.nameOfShoes.shoe1
+            // }else{
+            //     document.querySelector('.name').innerHTML = 'Name: ' 
+            // }
          
 
         })
